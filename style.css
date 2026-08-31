@@ -79,7 +79,7 @@ h2 {
 }
 
 #interests li {
-  color: #ffffff;
+  color: #000000;
   font-size: 1rem;
   font-weight: 600;
   padding: 10px 20px;
@@ -95,7 +95,7 @@ h2 {
 
 #interests li:hover {
   background: #000;
-  color: #fff;
+  color: #000000;
   border-color: #000;
   transform: translateY(-2px);
 }
@@ -163,7 +163,7 @@ nav h1 {
 
 .nav-li a:hover {
   background: #000;
-  color: #fff;
+  color: #000000;
 }
 
 /* Portfolio styles */
@@ -203,7 +203,7 @@ nav h1 {
 
 .portfolio a:hover {
   background: #ffffff;
-  color: #fff;
+  color: #000000;
   transform: translateX(4px);
 }
 
@@ -225,7 +225,7 @@ nav h1 {
 }
 
 .portfolio-box {
-  background: #ffffff;
+  background: #000000;
   padding: 32px 40px;
   border-radius: 16px;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
@@ -236,4 +236,13 @@ nav h1 {
   text-align: center;
   width: 100%;
   margin: 0;
+}
+#opspark a:hover {
+  background: #90ee90;
+  color: #000;
+}
+
+#khan a:hover {
+  background: #ee57c8;
+  color: #fff;
 }
