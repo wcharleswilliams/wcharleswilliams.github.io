@@ -5,7 +5,7 @@
 body {
   margin: 0;
   background: #000000;
-  color: #222;
+  color: #ffffff;
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
@@ -66,7 +66,7 @@ h2 {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  color: #000000;
+  color: #ffffff;
 }
 
 #interests ul {
@@ -94,7 +94,7 @@ h2 {
 }
 
 #interests li:hover {
-  background: #000;
+  background: #727272;
   color: #000000;
   border-color: #000;
   transform: translateY(-2px);
@@ -138,7 +138,7 @@ nav h1 {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  color: #000;
+  color: #6d6d6d;
 }
 
 #nav-ul {
@@ -162,7 +162,7 @@ nav h1 {
 }
 
 .nav-li a:hover {
-  background: #000;
+  background: #868686;
   color: #000000;
 }
 
@@ -191,7 +191,7 @@ nav h1 {
   justify-content: space-between;
   align-items: center;
   text-decoration: none;
-  color: #444;
+  color: #000000;
   padding: 16px 20px;
   font-size: 1.1rem;
   font-weight: 500;
