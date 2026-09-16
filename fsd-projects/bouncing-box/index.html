@@ -73,7 +73,7 @@
         }
 
         // changes the text displayed on the Box
-        function changeBoxText() {
+          function changeBoxText(points) {
           box.text(points);
         }
 
@@ -88,6 +88,9 @@
         var positionY = 0;
         var speedY = 10;
         var boardHeight = jQuery(window).height();
+        var randNum = Math.random() * 100;
+        var colorStr = "rgb(252, 81, 244)";
+          box.css("background-color", colorStr);
 
         /**
          * This Function will be called 20 times/second.
@@ -97,7 +100,7 @@
         function update() {
         moveBoxTo(positionX, positionY);
         positionX = positionX + speed;
-        positionY = positionY + speed;
+        positionY = positionY + speedY;
         if (positionX > boardWidth) {
           speed *= -1
 
